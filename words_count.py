@@ -3,7 +3,7 @@
 Код ниже работает только при условии, что между словами ТОЛЬКО 1 пробел. Если в строке действительно один пробел,
 то считает верно. В нашем случае 30 слов в строке, однако если добавить один пробел, то будет уже 31, а если убрать, то 29.
 """
-import re
+
 s = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate eveniet sit itaque quo facere possimus a quis aliquam nam ab officiis provident, soluta molestias labore est odit optio blanditiis inventore!'
 print(s.count(' ')+1)
 
