@@ -4,6 +4,6 @@
 
 index_string = 'Lorem ipsum set amet'
 lis = list(index_string) # делаем из строки список, чтобы использовать del
-del lis[::3] # срезому удаляем каждый 3 символ
+del lis[::3] # срезом удаляем каждый 3 символ
 
 print(''.join(lis)) #делаем из списка строку
